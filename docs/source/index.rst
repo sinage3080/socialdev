@@ -22,7 +22,7 @@ Q+5=15, 10+6=16, K+7=17이 된다.
 - A를 포함한 카드의 수를 소프트(Soft)라고 하며, A가 포함되지 않은 카드의 수를 
 하드(Hard)라고 한다.
 
-출처 : [카지노사이트](https://projectfluent.io/)
+출처 : [카지노사이트](https://projectfluent.io/) .
 
 
 
