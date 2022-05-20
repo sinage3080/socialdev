@@ -1,13 +1,30 @@
-Welcome to Lumache's documentation!
+카지노 블랙잭카드의 가치와 카지노 블랙잭 딜러 추가카드에 따른 조합 확률
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+카드는 각 무늬(Suit)마다 A, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K로 구성되어 있는데,
+이중에서 A는 1 또는 11로 사용할 수 있는 유리한 점이 있으며, 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+10과 그림카드(J, Q, K)는 모두 10으로 계산(Count)한다.
+예를 들어 A+5=6 또는 16으로 계산할 수 있으며, A+A=2 또는 12로, 
+Q+5=15, 10+6=16, K+7=17이 된다.
+
+
+- A(Ace)는 1 또는 11로 플레이어가 유리한 쪽으로 계산할 수 있다. 
+하지만 딜러는 플레이어와 같이 유리한 식의 계산은 할 수 없으며, 
+조합되는 숫자대로 계산한다. 
+
+- 즉, 딜러 규칙에 나와 있듯이 A+6=7 or 17인데, 딜러는 반드시 17로 계산하여야 한다. 
+
+- 10, J, Q, K(Face Card, Picture Card)는 모두 10으로 계산한다.
+
+- 2, 3, 4, 5, 6, 7, 8, 9는 정해진 카드(Value)대로 계산한다. 
+
+- A를 포함한 카드의 수를 소프트(Soft)라고 하며, A가 포함되지 않은 카드의 수를 
+하드(Hard)라고 한다.
+
+출처 : [카지노사이트](https://projectfluent.io/)
+
+
 
 .. note::
 
